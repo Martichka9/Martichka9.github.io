@@ -34,10 +34,44 @@ nav{
         font-weight: bold;
         font-style: italic;
     }
-
 }
+
+.header-intro {
+    background-color: rgba($primaryLightColor, 0.5);
+    max-width: 900px;
+    margin: 10% auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 150px auto;
+    justify-items: center;
+    text-align: justify;
+    padding: 0 2em 2em;
+    border-radius: 0.3em;
+    color: $primaryDarkColor;
+    text-shadow: 0 0 3px $primaryLightColor;
+    box-shadow: $boxShadows;
+}
+
 .site-footer {
     height: 85px;
     background-color: $primaryLightColor;
     box-shadow: $boxShadows;
+    
+    div.hf-container {
+        height: 100%;
+        @include displayFlex;
+    }
+    ul {
+        @include displayFlex;
+        margin: 0 1em;
+        li {
+            margin: 0.5em;
+        }
+    }
+    .contact-links {
+        font-size: 2em;
+        color:$primaryDarkColor;
+    }
+    p {margin: 0 1em;}
 }
