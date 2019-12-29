@@ -8,20 +8,36 @@ order: 10
 
 <article class="page-container">
     <div class="content">
-        {% include collection.html %}
-        {% include collection.html %}
+        <h2 class="group-title">Web pages / templates</h2>
+        {% assign animationsCollection = site.data.prj-list.animations %}
+        {% for prj in animationsCollection %}
+            {% include collection.html %}
+        {% endfor %}
     </div>
 </article>
 <div class="parallax-img"></div>
 <article class="page-container">
     <div class="content">
-        {% include collection.html %}
+        <h2 class="group-title">Simple animations</h2>
+        {% assign animationsCollection = site.data.prj-list.animations %}
+        {% for prj in animationsCollection %}
+            {% include collection.html %}
+        {% endfor %}
     </div>
 </article>
 <div class="parallax-img"></div>
 <article class="page-container">
     <div class="content">
-        {% include collection.html %}
+        <h2 class="group-title">ThreeJS</h2>
+        {% assign animationsCollection = site.data.prj-list.animations %}
+        {% for prj in animationsCollection %}
+            {% include collection.html %}
+        {% endfor %}
     </div>
 </article>
 <div class="parallax-img"></div>
+
+
+<script>
+    document.body.classList.add("home");
+</script>

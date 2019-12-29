@@ -5,9 +5,15 @@
 }
 
 body {
-    overflow-x: hidden;
+    color: $primaryDarkColor;
 }
 
 ul {
     list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: $primaryDarkColor;
+
 }
