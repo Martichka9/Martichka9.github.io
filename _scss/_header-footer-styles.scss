@@ -36,4 +36,8 @@ nav{
     }
 
 }
-    .site-footer {height: 85px;}
+.site-footer {
+    height: 85px;
+    background-color: $primaryLightColor;
+    box-shadow: $boxShadows;
+}

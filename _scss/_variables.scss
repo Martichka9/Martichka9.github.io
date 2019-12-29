@@ -1,14 +1,19 @@
 $maxWidth: 1024px;
+$margin-top-layout: -5em;
 
 /*Site Colors*/
 $primaryDarkColor: #471a7b;
 $primaryLightColor: #efe3ff;
 $shadowColor: #282031;
 
+$boxShadows: 0 0 10px $primaryDarkColor;
+
 
 @mixin displayFlex {
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 @mixin headerFooterContainer{
@@ -22,10 +27,10 @@ $shadowColor: #282031;
     animation: navBtns 0.7s ease-out forwards;
 }
 
-@mixin clearAnimation {
-    transform: translateX(0px);
-    transform: translateY(0px);
-    animation: none;
+@mixin parallaxes ($imgLink, $imgPosition) {
+    background-image: url($imgLink);
+    background: linear-gradient(to bottom,rgba(255, 141, 0, 0.2),rgba(103, 58, 183, 0.4)),url($imgLink) $imgPosition fixed;
+    background-size: cover;
 }
 
 
