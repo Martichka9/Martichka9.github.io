@@ -2,7 +2,7 @@ title: Martichka9 Portfolio
 email: kirilovamartina9@gmail.com
 description: "Portfolio web page"
 destination: docs
-baseurl: "/"
+baseurl: ""
 url: ""
 twitter_username: jekyllrb
 github_username:  jekyll
