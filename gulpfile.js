@@ -68,5 +68,5 @@ gulp.task("default", gulp.series('jekyll-dev', 'sass', 'copy', 'watch'));
 
 gulp.task("deploy", gulp.series('jekyll', 'sass', 'copy' , function() {
 //gulp.task("deploy", gulp.series('jekyll', 'sass', function() {
-	return cp.spawn('git status && git commit -am "move to new url" && git pull && git push', { stdio: "inherit", shell: true });
+	return cp.spawn('git status && git commit -am "add google verification" && git pull && git push', { stdio: "inherit", shell: true });
 }));
