@@ -9,7 +9,8 @@
 
 .site-header {
     background: rgba(103, 58, 183, 0.4);
-    background-image: url("https://images.unsplash.com/photo-1498721409281-998093cc905b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-image: url("./imgs/pawel-czerwinski-ki9IMshQZ4Q-unsplash_small.webp");//Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/green-and-yellow-abstract-painting-ki9IMshQZ4Q?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
     @include backgroundOne; 
 }
 /*Stiky header on scroll*/
@@ -74,7 +75,7 @@ nav{
         padding: 0.5em 2em;
         border: 1px solid $primaryDarkColor;
         border-radius: $borderRadius;
-        max-width: 221px;
+        max-width: 250px;
         @include buttonsDefaultValues;
         &:hover{
             @include buttonsOnHoverValues($primaryDarkColor, 0.5);

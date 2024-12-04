@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Acme|Chewy|Indie+Flower|Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme|Chewy|Indie+Flower&display=swap');
 @import "_variables.scss";
 @import "_reset.scss";
-@import "_animations.scss";
 @import "_header-footer-styles.scss";
 @import "_collection-styles.scss";
 @import "_about-styles.scss";
@@ -39,13 +38,14 @@ div.parallax-img {
     height: 27em;
 }
 div.parallax-img:nth-of-type(1){
-    @include parallaxes ("https://images.unsplash.com/photo-1517697471339-4aa32003c11a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80", center);
+    @include parallaxes ("../imgs/debby-hudson-MzSqFPLo8CE-unsplash.webp", center);//Photo by <a href="https://unsplash.com/@hudsoncrafted?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Debby Hudson</a> on <a href="https://unsplash.com/photos/mason-jar-of-paintbrush-lot-MzSqFPLo8CE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
 }
 div.parallax-img:nth-of-type(2){
-    @include parallaxes ("https://images.unsplash.com/photo-1517697471339-4aa32003c11a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80", center);
+    @include parallaxes ("../imgs/debby-hudson-MzSqFPLo8CE-unsplash.webp", center);
 }
 div.parallax-img:nth-of-type(3){
-    @include parallaxes ("https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80", bottom);
+    @include parallaxes ("../imgs/photo-1489844097929-c8d5b91c456e.webp", bottom);
     margin-bottom: 0;
     height: 20em;
 }
