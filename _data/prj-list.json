@@ -87,18 +87,21 @@
       "link" : "https://martichka9.github.io/SunSolarSystem/",
       "title" : "Solar System",
       "gif" : "imgs/GIF-solar-system.gif",
+      "img" : "imgs/solarsystem.webp",
       "info" : "ThreeJS project in progress",
       "detail" : "<p>This is a Solar System hobby project.</p><p>The sizes, orbits, direction and speed of the planets are calculated to be proportional to the real ones.</p><p>Click on any of the names in the lower right to take a closer look at the planet.</p><p>Languages, tools, etc. : Webpack, three.js</p>"
     },
     {
        "link" : "https://codepen.io/Marticka/full/ZPmLzd",
        "title" : "Lights and shadows",
+       "img" : "imgs/lightsandshadows.webp",
        "gif" : "imgs/GIF-lights&shadows.gif",
        "detail" : "<p>Just experimenting with Three.js shadows, lights and fogs</p>"
     },
     {
        "link" : "https://codepen.io/Marticka/full/oOrXem",
        "title" : "Sun and Moon landscape",
+       "img" : "imgs/sunandmoon.webp",
        "gif" : "imgs/GIF-THREEJS-landscape.gif",
        "detail" : "<p>Simple landscape with moving lights. Tried Three.js water, texture and shadows.</p><p>You can scroll around and look at the terrain.</p><p>If you zoom out far enough you'll see the boundary of the visual scene from outside.</p>"
     },
