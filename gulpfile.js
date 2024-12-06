@@ -5,6 +5,7 @@ let gulp = require("gulp"),
 	cp = require("child_process"),
 	browserSync = require('browser-sync').create(),
 	sass = require('gulp-sass')(require('sass'));
+// var rename = require("gulp-rename");
 
 gulp.task("sass", async function() {
 	return gulp.src( '_scss/**/*.scss')
@@ -27,6 +28,12 @@ gulp.task('copy', function() {
 	], {base:'_scss/'})
         .pipe(gulp.dest('./docs/css/'));
 });
+
+// gulp.task('rename-css', async function(){
+// 	gulp.src( 'docs/css/styles.css' )
+// 	.pipe(rename( 'styles.min.css' ))
+//   	.pipe(gulp.dest( './docs/css/' ));
+// });
 
 // Jekyll
 gulp.task("jekyll-dev", function() {

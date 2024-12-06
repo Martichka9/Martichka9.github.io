@@ -37,12 +37,21 @@ div.parallax-img {
     width: 100%;
     height: 27em;
 }
+div.parallax-img:nth-of-type(1)::before {
+    content: url("../imgs/debby-hudson-MzSqFPLo8CE-unsplash_medium.webp");
+    display: none;
+}
+div.parallax-img:nth-of-type(3)::before {
+    content: url("../imgs/photo-1489844097929-c8d5b91c456e.webp");
+    display: none;
+}
 div.parallax-img:nth-of-type(1){
-    @include parallaxes ("../imgs/debby-hudson-MzSqFPLo8CE-unsplash.webp", center);//Photo by <a href="https://unsplash.com/@hudsoncrafted?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Debby Hudson</a> on <a href="https://unsplash.com/photos/mason-jar-of-paintbrush-lot-MzSqFPLo8CE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-      
+    @include parallaxes ("../imgs/debby-hudson-MzSqFPLo8CE-unsplash_medium.webp", center);//Photo by <a href="https://unsplash.com/@hudsoncrafted?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Debby Hudson</a> on <a href="https://unsplash.com/photos/mason-jar-of-paintbrush-lot-MzSqFPLo8CE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>      
+    opacity: 0.6;
 }
 div.parallax-img:nth-of-type(2){
-    @include parallaxes ("../imgs/debby-hudson-MzSqFPLo8CE-unsplash.webp", center);
+    @include parallaxes ("../imgs/debby-hudson-MzSqFPLo8CE-unsplash_medium.webp", center);
+    opacity: 0.6;
 }
 div.parallax-img:nth-of-type(3){
     @include parallaxes ("../imgs/photo-1489844097929-c8d5b91c456e.webp", bottom);

@@ -4,21 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Martichka9</title>
-    <!-- <link rel="dns-prefetch stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" media="screen"> -->
-    <!-- <link rel="dns-prefetch stylesheet" href="https://fonts.googleapis.com/css?family=Acme|Chewy|Indie+Flower&display=swap" > -->
-    <link rel="dns-prefetch stylesheet" href="https://fonts.googleapis.com/css?family=Acme|Indie+Flower&display=swap" >
-    <link rel="stylesheet" href="/css/styles.css" media="screen">
-    <link rel="icon" type="image/png" href="/imgs/favicon-64x64.png">
+    <title>Martichka Portfolio Page</title>
+    <link rel="dns-prefetch stylesheet" fetchpriority="high" as="stylesheet" href="https://fonts.googleapis.com/css?family=Acme|Indie+Flower&display=swap">
+    <link rel="preload" fetchpriority="high" as="image" href="/imgs/pawel-czerwinski-ki9IMshQZ4Q-unsplash_small_opacity60.webp" type="image/webp">
+    <link rel="stylesheet" fetchpriority="high" as="stylesheet" href="/css/styles.css" media="screen">
+    <link rel="icon" type="image/png" href="/imgs/favicon-64x64.webp">
 <body>
     <!-- <img src="https://cdn.pixabay.com/photo/2016/01/20/10/53/maintenance-1151314_960_720.png" style="display: block;margin: 10% auto 0; width: 50%;" alt="under construction"> -->
 
     <header class="site-header">
     <div class="hf-container">
-        <!-- <a class="site-logo" href="/">
-            <img src="" alt="site-logo" style="max-width: 50px;">
-            <h1>Martichka9 Portfolio</h1>
-        </a> -->
         <div class="site-menu">
             <label for="menu-btn"><i class="fas fa-palette"></i></label>
             <input type="checkbox" id="menu-btn" />
@@ -41,7 +36,7 @@
                         
                     
                         
-                            <li class="site-menu-item "><a href="/about/">About</a></li>
+                            <li class="site-menu-item "><a href="/about//">About</a></li>
                         
                     
                 </ul>
@@ -52,7 +47,7 @@
         <article class="header-intro">
             <h2>Hello and welcome to my portfolio web page,</h2>
             <h3>You can scroll down to review some of my works,<br/>or if you want to know a bit more about me, you can follow the link</h3>
-            <a href="/about">More about me here</a>
+            <a href="/about/">More about me here</a>
         </article>
         
     </div>
@@ -69,7 +64,7 @@
         
             <a class=" project-container" href="https://martichka9.github.io/css-advanced-exam/" target="_blank">
     <div class="project-image">
-        <img src="/imgs/travel-inspire.webp" Travel Inspire alt="Travel Inspire">
+        <img src="/imgs/travel-inspire.webp" min-width="240" min-height="145" loading="lazy" alt="Travel Inspire">
     </div>
     <div class="info">
         <h3>Travel Inspire</h3>
@@ -88,7 +83,7 @@
         
             <a class=" project-container" href="https://martichka9.github.io/yokos-kitchen-hw/" target="_blank">
     <div class="project-image">
-        <img src="/imgs/yokos-kitchen.webp" Yoko's Kitchen alt="Yoko's Kitchen">
+        <img src="/imgs/yokos-kitchen.webp" min-width="240" min-height="145" loading="lazy" alt="Yoko's Kitchen">
     </div>
     <div class="info">
         <h3>Yoko's Kitchen</h3>
@@ -107,7 +102,7 @@
         
             <a class=" project-container" href="https://martichka9.github.io/vj-road-assistance/" target="_blank">
     <div class="project-image">
-        <img src="/imgs/vj-road-assistance.webp" Road Assistance alt="Road Assistance">
+        <img src="/imgs/vj-road-assistance.webp" min-width="240" min-height="145" loading="lazy" alt="Road Assistance">
     </div>
     <div class="info">
         <h3>Road Assistance</h3>
@@ -124,10 +119,10 @@
 
 
         
-        <h3 class="group-title"><a href="/web-pages">More ...</a></h3>
+        <h3 class="group-title"><a href="/web-pages/">More ...</a></h3>
     </div>
 </article>
-<div class="parallax-img"></div>
+<div class="parallax-img" min-width="900" min-height="100"></div>
 <article class="page-container">
     <div class="content">
         <h2 class="group-title">Simple animations</h2>
@@ -135,7 +130,7 @@
         
             <a class=" project-container" href="https://codepen.io/Marticka/full/ExaXjae" target="_blank">
     <div class="project-image">
-        <img src="/imgs/christmas-tree.webp" Christmas Tree alt="Christmas Tree">
+        <img src="/imgs/christmas-tree.webp" min-width="240" min-height="145" loading="lazy" alt="Christmas Tree">
     </div>
     <div class="info">
         <h3>Christmas Tree</h3>
@@ -154,7 +149,7 @@
         
             <a class=" project-container" href="https://codepen.io/Marticka/full/wvvbVgx" target="_blank">
     <div class="project-image">
-        <img src="/imgs/scrabble.webp" Scrabble alt="Scrabble">
+        <img src="/imgs/scrabble.webp" min-width="240" min-height="145" loading="lazy" alt="Scrabble">
     </div>
     <div class="info">
         <h3>Scrabble</h3>
@@ -171,7 +166,7 @@
         
             <a class=" project-container" href="https://codepen.io/Marticka/full/RwRVEvd" target="_blank">
     <div class="project-image">
-        <img src="/imgs/cheezy-sandwich.webp" Cheezy sandwich alt="Cheezy sandwich">
+        <img src="/imgs/cheezy-sandwich.webp" min-width="240" min-height="145" loading="lazy" alt="Cheezy sandwich">
     </div>
     <div class="info">
         <h3>Cheezy sandwich</h3>
@@ -188,10 +183,10 @@
 
 
         
-        <h3 class="group-title"><a href="/simple-animations">More ...</a></h3>
+        <h3 class="group-title"><a href="/simple-animations/">More ...</a></h3>
     </div>
 </article>
-<div class="parallax-img"></div>
+<div class="parallax-img"  min-width="900" min-height="100"></div>
 <article class="page-container threejs">
     <div class="content">
         <h2 class="group-title">Three.JS</h2>
@@ -199,7 +194,7 @@
         
             <a class=" project-container" href="https://martichka9.github.io/SunSolarSystem/" target="_blank">
     <div class="project-image">
-        <img src="/imgs/solarsystem.webp" Solar System alt="Solar System">
+        <img src="/imgs/solarsystem.webp" min-width="240" min-height="145" loading="lazy" alt="Solar System">
     </div>
     <div class="info">
         <h3>Solar System</h3>
@@ -218,7 +213,7 @@
         
             <a class=" project-container" href="https://codepen.io/Marticka/full/ZPmLzd" target="_blank">
     <div class="project-image">
-        <img src="/imgs/lightsandshadows.webp" Lights and shadows alt="Lights and shadows">
+        <img src="/imgs/lightsandshadows.webp" min-width="240" min-height="145" loading="lazy" alt="Lights and shadows">
     </div>
     <div class="info">
         <h3>Lights and shadows</h3>
@@ -237,7 +232,7 @@
         
             <a class=" project-container" href="https://codepen.io/Marticka/full/oOrXem" target="_blank">
     <div class="project-image">
-        <img src="/imgs/sunandmoon.webp" Sun and Moon landscape alt="Sun and Moon landscape">
+        <img src="/imgs/sunandmoon.webp" min-width="240" min-height="145" loading="lazy" alt="Sun and Moon landscape">
     </div>
     <div class="info">
         <h3>Sun and Moon landscape</h3>
@@ -254,10 +249,10 @@
 
 
         
-        <h3 class="group-title"><a href="/threejs">More ...</a></h3>
+        <h3 class="group-title"><a href="/threejs/">More ...</a></h3>
     </div>
 </article>
-<div class="parallax-img"></div>
+<div class="parallax-img"  min-width="900" min-height="100"></div>
 
     </main>
     <footer class="site-footer">
