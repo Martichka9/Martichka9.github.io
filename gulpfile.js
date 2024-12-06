@@ -7,8 +7,16 @@ let gulp = require("gulp"),
 	sass = require('gulp-sass')(require('sass'));
 // var rename = require("gulp-rename");
 
-gulp.task("sass", async function() {
-	return gulp.src( '_scss/**/*.scss')
+gulp.task("reset-styles", async function() {
+	return gulp.src( '_scss/reset.scss', '_scss/_variables.scss', '_scss/_fonts.scss')
+		.pipe( sass().on('error', sass.logError) )
+		.pipe( csso() )
+		.pipe( gulp.dest( './docs/css/' ) )
+		.pipe( browserSync.stream({ match: '**/*.css' }) )
+	;
+});
+gulp.task("styles", async function() {
+	return gulp.src( '_scss/styles/*.scss', '_scss/_variables.scss')
 		.pipe( sass().on('error', sass.logError) )
 		.pipe( csso() )
 		.pipe( gulp.dest( './docs/css/' ) )
@@ -53,7 +61,7 @@ gulp.task("watch", function() {
 		}
 	});
 
-	gulp.watch( '_scss/**/*.scss', gulp.series('sass') );
+	gulp.watch( '_scss/**/*.scss', gulp.series('reset-styles', 'styles') );
 
 	gulp.watch(
 		[
@@ -63,17 +71,17 @@ gulp.task("watch", function() {
 			"./_layouts/*.html",
 			"./_data/*.json"
 		]
-	).on('change', gulp.series('jekyll-dev', 'sass', 'copy') );
-	//).on('change', gulp.series('jekyll-dev', 'sass') );
+	).on('change', gulp.series('jekyll-dev', 'reset-styles', 'styles', 'copy') );
+	//).on('change', gulp.series('jekyll-dev', 'reset-styles', 'styles') );
 
 	gulp.watch( 'docs/**/*.html' ).on('change', browserSync.reload );
 	gulp.watch( 'docs/**/*.js' ).on('change', browserSync.reload );
 });
 
-gulp.task("default", gulp.series('jekyll-dev', 'sass', 'copy', 'watch'));
+gulp.task("default", gulp.series('jekyll-dev', 'reset-styles', 'styles', 'copy', 'watch'));
 //gulp.task("default", gulp.series('jekyll-dev', 'sass', 'watch'));
 
-gulp.task("deploy", gulp.series('jekyll', 'sass', 'copy' , function() {
+gulp.task("deploy", gulp.series('jekyll', 'reset-styles', 'styles', 'copy' , function() {
 //gulp.task("deploy", gulp.series('jekyll', 'sass', function() {
 	return cp.spawn('git status && git commit -am "apply last updates to live" && git pull && git push', { stdio: "inherit", shell: true });
 }));
