@@ -4,59 +4,70 @@
       "title" : "Christmas Tree",
       "gif" : "imgs/GIF-christmas-tree.gif",
       "img" : "imgs/christmas-tree.webp",
-      "info" : "CSS only animation"
+      "info" : "CSS only animation",
+      "detail" : ""
     }, {
       "link" : "https://codepen.io/Marticka/full/wvvbVgx",
       "title" : "Scrabble",
       "gif" : "imgs/GIF-scrabble.gif",
       "img" : "imgs/scrabble.webp",
-      "info" : ""
+      "info" : "",
+      "detail" : ""
     },{
       "link" : "https://codepen.io/Marticka/full/RwRVEvd",
       "title" : "Cheezy sandwich",
       "gif" : "imgs/GIF-cheezy-sandwich.gif",
       "img" : "imgs/cheezy-sandwich.webp",
-      "info" : "CSS only animation"
+      "info" : "CSS only animation",
+      "detail" : ""
     },{
       "link" : "https://martichka9.github.io/stalking-cat-loader/",
       "title" : "Stalking cat loader",
       "gif" : "imgs/GIF-stalking-cat-loader.gif",
-      "info" : "CSS only animation"
+      "info" : "CSS only animation",
+      "detail" : ""
     },{
       "link" : "https://codepen.io/Marticka/full/XWKBJQe",
       "title" : "Jack O'Lantern",
       "gif" : "imgs/GIF-jack-o-lantern.gif",
-      "info" : "CSS only animation"
+      "info" : "CSS only animation",
+      "detail" : ""
     },{
       "link" : "https://codepen.io/Marticka/full/qBaZxoz",
       "title" : "A fish",
       "gif" : "imgs/fish.gif",
-      "info" : "CSS only animation"
+      "info" : "CSS only animation",
+      "detail" : ""
     }, {
       "link" : "https://codepen.io/Marticka/full/BajRLKo",
       "title" : "Mini Solar System",
       "gif" : "imgs/mini-solar-system.gif",
-      "info" : ""
+      "info" : "",
+      "detail" : ""
     }, {
       "link" : "https://codepen.io/Marticka/full/jOOKYNQ",
       "title" : "Clock",
       "gif" : "imgs/GIF-clock.gif",
-      "info" : ""
+      "info" : "",
+      "detail" : ""
     },{
       "link" : "https://codepen.io/Marticka/full/dyoRZOK",
       "title" : "A Puzzle",
       "gif" : "imgs/puzzle.gif",
-      "info" : ""
+      "info" : "",
+      "detail" : ""
       },{
       "link" : "https://codepen.io/Marticka/full/oNvOZxg",
       "title" : "Simple Preloader",
       "gif" : "imgs/GIF-preloader.gif",
-      "info" : "CSS only animation"
+      "info" : "CSS only animation",
+      "detail" : ""
     },{
       "link" : "https://codepen.io/Marticka/full/KrPYKG",
       "title" : "Scissors Animation",
       "gif" : "imgs/GIF-scissors.gif",
-      "info" : "CSS only animation"
+      "info" : "CSS only animation",
+      "detail" : ""
     }
   ],
   "pages" : [{
