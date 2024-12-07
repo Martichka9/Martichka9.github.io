@@ -1,1 +1,149 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-12-06T15:54:41+02:00</updated><id>/feed.xml</id><title type="html">Martichka9 Portfolio</title><subtitle>Portfolio web page</subtitle></feed>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Martichka9 Portfolio</title>
+    <description>Portfolio web page</description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+
+      <category>Web pages</category>
+    
+        <item>
+          <title>Travel Inspire</title>
+          <info>Simple website template (exam)</info>
+          <description><p>This is a kind of template project created for the exam of CSS Advanced course.</p><p>There are added plenty of css animations, as a requirement.</p><p>Responsive styles loads well on all screen sizes.</p><p>Used languages, tools, technologies: Gulp, Jekyll, SCSS, JS, HTML.</p></description>
+          <link>https://martichka9.github.io/css-advanced-exam/</link>
+        </item>
+    
+        <item>
+          <title>Yoko's Kitchen</title>
+          <info>Template (course homework)</info>
+          <description><p>This is another template site created as homework task durring Web Fundamentals - HTML5 course in 2018.</p><p>Responsive styles loads well on all screen sizes.</p><p>When migrated to GitHub Pages is also migrated to use Gulp, Jekyll and SCSS.</p></description>
+          <link>https://martichka9.github.io/yokos-kitchen-hw/</link>
+        </item>
+    
+        <item>
+          <title>Road Assistance</title>
+          <info>template page</info>
+          <description><p>This is a template site created as weekend hobby project.</p><p>Used technologies, languages, etc: Webpack, SCSS, HTML.</p></description>
+          <link>https://martichka9.github.io/vj-road-assistance/</link>
+        </item>
+    
+    <category>ThreeJS</category>
+    
+        <item>
+          <title>Solar System</title>
+          <info>ThreeJS project in progress</info>
+          <description><p>This is a Solar System hobby project.</p><p>The sizes, orbits, direction and speed of the planets are calculated to be proportional to the real ones.</p><p>Click on any of the names in the lower right to take a closer look at the planet.</p><p>Languages, tools, etc. : Webpack, three.js</p></description>
+          <link>https://martichka9.github.io/SunSolarSystem/</link>
+        </item>
+    
+        <item>
+          <title>Lights and shadows</title>
+          <info></info>
+          <description><p>Just experimenting with Three.js shadows, lights and fogs</p></description>
+          <link>https://codepen.io/Marticka/full/ZPmLzd</link>
+        </item>
+    
+        <item>
+          <title>Sun and Moon landscape</title>
+          <info></info>
+          <description><p>Simple landscape with moving lights. Tried Three.js water, texture and shadows.</p><p>You can scroll around and look at the terrain.</p><p>If you zoom out far enough you'll see the boundary of the visual scene from outside.</p></description>
+          <link>https://codepen.io/Marticka/full/oOrXem</link>
+        </item>
+    
+        <item>
+          <title>Planet with rings</title>
+          <info></info>
+          <description></description>
+          <link>#</link>
+        </item>
+    
+        <item>
+          <title>Simple rotation</title>
+          <info></info>
+          <description>This is one of my first experiments with Three.js. </description>
+          <link>https://codepen.io/Marticka/full/KEGdmw</link>
+        </item>
+    
+    <category>CSS Animations</category>
+    
+        <item>
+          <title>Christmas Tree</title>
+          <info>CSS only animation</info>
+          <description></description>
+          <link>https://codepen.io/Marticka/full/ExaXjae</link>
+        </item>
+    
+        <item>
+          <title>Scrabble</title>
+          <info></info>
+          <description></description>
+          <link>https://codepen.io/Marticka/full/wvvbVgx</link>
+        </item>
+    
+        <item>
+          <title>Cheezy sandwich</title>
+          <info>CSS only animation</info>
+          <description></description>
+          <link>https://codepen.io/Marticka/full/RwRVEvd</link>
+        </item>
+    
+        <item>
+          <title>Stalking cat loader</title>
+          <info>CSS only animation</info>
+          <description></description>
+          <link>https://martichka9.github.io/stalking-cat-loader/</link>
+        </item>
+    
+        <item>
+          <title>Jack O'Lantern</title>
+          <info>CSS only animation</info>
+          <description></description>
+          <link>https://codepen.io/Marticka/full/XWKBJQe</link>
+        </item>
+    
+        <item>
+          <title>A fish</title>
+          <info>CSS only animation</info>
+          <description></description>
+          <link>https://codepen.io/Marticka/full/qBaZxoz</link>
+        </item>
+    
+        <item>
+          <title>Mini Solar System</title>
+          <info></info>
+          <description></description>
+          <link>https://codepen.io/Marticka/full/BajRLKo</link>
+        </item>
+    
+        <item>
+          <title>Clock</title>
+          <info></info>
+          <description></description>
+          <link>https://codepen.io/Marticka/full/jOOKYNQ</link>
+        </item>
+    
+        <item>
+          <title>A Puzzle</title>
+          <info></info>
+          <description></description>
+          <link>https://codepen.io/Marticka/full/dyoRZOK</link>
+        </item>
+    
+        <item>
+          <title>Simple Preloader</title>
+          <info>CSS only animation</info>
+          <description></description>
+          <link>https://codepen.io/Marticka/full/oNvOZxg</link>
+        </item>
+    
+        <item>
+          <title>Scissors Animation</title>
+          <info>CSS only animation</info>
+          <description></description>
+          <link>https://codepen.io/Marticka/full/KrPYKG</link>
+        </item>
+    
+  </channel>
+</rss>

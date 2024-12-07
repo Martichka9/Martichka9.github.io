@@ -69,7 +69,8 @@ gulp.task("watch", function() {
 			"./*.yml",
 			"./_includes/*.html",
 			"./_layouts/*.html",
-			"./_data/*.json"
+			"./_data/*.json",
+			"./*.xml"
 		]
 	).on('change', gulp.series('jekyll-dev', 'reset-styles', 'styles', 'copy') );
 	//).on('change', gulp.series('jekyll-dev', 'reset-styles', 'styles') );
