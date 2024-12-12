@@ -11,21 +11,21 @@
         <item>
           <title>Travel Inspire</title>
           <info>Simple website template (exam)</info>
-          <description><p>This is a kind of template project created for the exam of CSS Advanced course.</p><p>There are added plenty of css animations, as a requirement.</p><p>Responsive styles loads well on all screen sizes.</p><p>Used languages, tools, technologies: Gulp, Jekyll, SCSS, JS, HTML.</p></description>
+          <description><p>This is a kind of <strong>template project</strong> created for the exam of CSS Advanced course.</p><p>There are added plenty of <strong>CSS animations</strong>, as a requirement.</p><p><strong>Responsive styles loads well on all screen sizes</strong>.</p><p>Used languages, tools, technologies: <strong>Gulp</strong>, <strong>Jekyll</strong>, <strong>SCSS</strong>, <strong>JS</strong>, <strong>HTML</strong>.</p></description>
           <link>https://martichka9.github.io/css-advanced-exam/</link>
         </item>
     
         <item>
           <title>Yoko's Kitchen</title>
           <info>Template (course homework)</info>
-          <description><p>This is another template site created as homework task durring Web Fundamentals - HTML5 course in 2018.</p><p>Responsive styles loads well on all screen sizes.</p><p>When migrated to GitHub Pages is also migrated to use Gulp, Jekyll and SCSS.</p></description>
+          <description><p>This is another <strong>template site</strong> created as homework task durring Web Fundamentals - HTML5 course in 2018.</p><p><strong>Responsive styles loads well on all screen sizes</strong>.</p><p>When migrated to GitHub Pages is also migrated to use <b>Gulp, Jekyll and SCSS</b>.</p></description>
           <link>https://martichka9.github.io/yokos-kitchen-hw/</link>
         </item>
     
         <item>
           <title>Road Assistance</title>
           <info>template page</info>
-          <description><p>This is a template site created as weekend hobby project.</p><p>Used technologies, languages, etc: Webpack, SCSS, HTML.</p></description>
+          <description><p>This is a <b>template site</b> created as weekend hobby project.</p><p>Used technologies, languages, etc: <strong>Webpack</strong>, <b>SCSS</b>, <b>HTML</b>.</p></description>
           <link>https://martichka9.github.io/vj-road-assistance/</link>
         </item>
     
@@ -34,7 +34,7 @@
         <item>
           <title>Solar System</title>
           <info>ThreeJS project in progress</info>
-          <description><p>This is a Solar System hobby project.</p><p>The sizes, orbits, direction and speed of the planets are calculated to be proportional to the real ones.</p><p>Click on any of the names in the lower right to take a closer look at the planet.</p><p>Languages, tools, etc. : Webpack, three.js</p></description>
+          <description><p>This is a Solar System hobby project.</p><p>The sizes, orbits, direction and speed of the planets are calculated to be proportional to the real ones.</p><p>Click on any of the names in the lower right to take a closer look at the planet.</p><p>Languages, tools, etc. : <b>Webpack</b>, <strong>three.js</strong>.</p></description>
           <link>https://martichka9.github.io/SunSolarSystem/</link>
         </item>
     
