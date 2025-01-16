@@ -34,7 +34,7 @@
         <item>
           <title>Solar System</title>
           <info>ThreeJS project in progress</info>
-          <description><p>This is a Solar System hobby project.</p><p>The sizes, orbits, direction and speed of the planets are calculated to be proportional to the real ones.</p><p>Click on any of the names in the lower right to take a closer look at the planet.</p><p>Languages, tools, etc. : <b>Webpack</b>, <strong>three.js</strong>.</p></description>
+          <description><p>This is a <strong>Sun Solar System</strong> hobby project.</p><p>The sizes, orbits, direction and speed of the planets are calculated to be proportional to the real ones.</p><p>Click on any of the names in the lower right to take a closer look at the planet.</p><p>Languages, tools, etc. : <b>Webpack</b>, <strong>three.js</strong>.</p></description>
           <link>https://martichka9.github.io/SunSolarSystem/</link>
         </item>
     

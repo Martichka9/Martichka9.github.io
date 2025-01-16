@@ -1,12 +1,15 @@
 .about-page { 
     padding: 1em;
     
-    > h2 {
+    > h1 {
         text-align: center;
     }
     .info {
         @include containerStyle;
         
+        h2 {
+            font-size: 1.3rem;
+        }
         .ph{
             margin-top: 1em;
             font-weight: 600;

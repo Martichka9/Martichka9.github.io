@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Martichka9/Martichka9.github.io#readme",
   "devDependencies": {
+    "gulp-cli": "^3.0.0",
     "sass": "^1.74.1"
   }
 }

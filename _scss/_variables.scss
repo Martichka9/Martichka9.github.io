@@ -61,7 +61,7 @@ $boxShadows: 0 0 10px $primaryDarkColor;
 @mixin containerStyle {
     max-width: 900px;
     margin: 0 auto;
-    padding: 1em 0;
+    padding: 3em 1.5em;
 }
 
 @mixin groupTitle {

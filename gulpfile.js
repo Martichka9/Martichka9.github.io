@@ -84,5 +84,5 @@ gulp.task("default", gulp.series('jekyll-dev', 'reset-styles', 'styles', 'copy',
 
 gulp.task("deploy", gulp.series('jekyll', 'reset-styles', 'styles', 'copy' , function() {
 //gulp.task("deploy", gulp.series('jekyll', 'sass', function() {
-	return cp.spawn('git status && git commit -am "fix sitemap" && git pull && git push', { stdio: "inherit", shell: true });
+	return cp.spawn('git status && git commit -am "small fixes + change font, update about, update footer" && git pull && git push', { stdio: "inherit", shell: true });
 }));

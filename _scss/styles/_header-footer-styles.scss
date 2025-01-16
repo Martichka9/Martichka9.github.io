@@ -70,6 +70,13 @@ nav{
     color: $primaryDarkColor;
     text-shadow: 0 0 3px $primaryLightColor;
     box-shadow: $boxShadows;
+
+    h1, h2 {
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
     a{
         margin: 1.5em auto;
         padding: 0.5em 2em;
